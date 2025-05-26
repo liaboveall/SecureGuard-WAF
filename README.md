@@ -1,4 +1,4 @@
-# 🛡️ Struts2 安全扫描与 WAF 绕过工具集
+# 🛡️ SecureGuard-WAF
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Security](https://img.shields.io/badge/Security-Testing-red.svg)]()
@@ -19,10 +19,10 @@ git clone https://github.com/your-username/Struts2-scan-and-WAF.git
 cd Struts2-scan-and-WAF
 
 # 使用主控制脚本
-./main.sh
+bash main.sh
 
 # 或直接运行特定CVE脚本
-./scripts/cve-2020-17530.sh
+bash scripts/cve-2020-17530.sh
 ```
 
 ## 🔍 支持的 CVE
